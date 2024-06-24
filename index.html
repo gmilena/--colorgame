@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+    <html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Juego de colores</title>
+
+    </head>
+
+    <body >
+
+        <h1 id = "h1" class="title-game"> El gran <span id="colorDisplay"></span> <br> <span id="message-game"></span> </h1>
+        
+        <!-- BARRA -->
+        <div id="stripe">
+            <button id="reset">Nuevos Colores</button>
+            <span id="message"></span>
+            <button class="mode selected">NORMAL</button>
+            <button class="mode">FÁCIL</button>
+        </div>
+        
+        <!--TARJETAS DE COLORES-->
+        <div class="container"> 
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div> 
+
+        <script src="colorgame.js"></script>
+
+    </body>
+
+</html>
